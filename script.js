@@ -15,7 +15,7 @@ async function handleSubmit(e){
 	output.innerText = text;
 }
 
-    const delayFunction =(ms) => new promise((resolve)=>setTimeout(resolve,ms));
+    const delayFunction =(ms) => new Promise((resolve)=>setTimeout(resolve,ms));
  btn.addEventListener('click',handleSubmit);
 
 
